@@ -1,0 +1,30 @@
+<h2>Formulário de Endereço</h2>
+
+    <form [formGroup]="form">
+        <div class = "row p-0">
+
+        <div class = "mb-3 col-md-4">
+            <label for="cep">CEP:</label>
+            <input formControlName="cep" type="text" class="form-control"  id="cep" name="cep" >
+        </div>
+        <div class = "mb-3 col-md-6">
+            <label for="logradouro">Logradouro:</label>
+            <input formControlName="logradouro" type="text" class="form-control" id="logradouro" name="logradouro" >
+        </div>
+        
+        <div class = "mb-3">
+            <label for="bairro">Bairro:</label>
+            <input formControlName="bairro" type="text" class="form-control" id="bairro" name="bairro" >
+        </div>
+
+        <div class = "mb-3 col-md-4">
+            <label for="cidade">Cidade:</label>
+            <input formControlName="cidade" type="text" class="form-control" id="cidade" name="cidade" >
+        </div>
+
+        <div class = "mb-3 col-md-2">
+            <label for="estado">Estado:</label>
+            <input formControlName="estado" type="text" class="form-control" id="estado" name="estado" >
+        </div>
+    </div>
+    </form>
